@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incremental game memory</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts.js" type="module"></script>
+  </head>
+  <body>
+    <main>
+      <!-- <div class="game-home">
+        <p>This game is about memorizing tiles</p>
+        <p>choose an upgrade after each level</p>
+        <button class="start">Click to start a new game...</button>
+      </p>
+      </div> -->
+      <section class="game-container">
+        <div style="width: 100%; display: flex; justify-content: center">
+          <div class="game-board">
+            <div class="player-status">
+              <h1>Level 1-1</h1>
+              <div class="hearts">
+                <!-- <svg
+                  class="heartSvg"
+                  width="32"
+                  clip-rule="evenodd"
+                  fill="#fff4f4"
+                  fill-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m12 5.72c-2.624-4.517-10-3.198-10 2.461 0 3.725 4.345 7.727 9.303 12.54.194.189.446.283.697.283s.503-.094.697-.283c4.977-4.831 9.303-8.814 9.303-12.54 0-5.678-7.396-6.944-10-2.461z"
+                    fill-rule="nonzero"
+                  />
+                </svg> -->
+              </div>
+            </div>
+            <div class="grid">
+              <button data-tile="1" class="grid-item"></button>
+              <button data-tile="2" class="grid-item"></button>
+              <button data-tile="3" class="grid-item"></button>
+              <button data-tile="4" class="grid-item"></button>
+              <button data-tile="5" class="grid-item"></button>
+              <button data-tile="6" class="grid-item"></button>
+              <button data-tile="7" class="grid-item"></button>
+              <button data-tile="8" class="grid-item"></button>
+              <button data-tile="9" class="grid-item"></button>
+            </div>
+            <div class="countdown"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
